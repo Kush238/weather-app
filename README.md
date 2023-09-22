@@ -56,6 +56,6 @@ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q={CITY_NAME}&ap
     <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 <h2>Contact</h2>
-    <p>If you have any questions, suggestions, or feedback, you can reach out to the project owner, Kush, at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+    <p>If you have any questions, suggestions, or feedback, you can reach out to the project owner, Kush, at <a href="mailto:kushbrahmbhatt23@gmail.com">kushbrahmbhatt23@gmail.com</a>.</p>
 
 <p>Enjoy using the Weather App by Kush! Stay updated with the latest weather conditions, and plan your day accordingly.</p>
