@@ -1,3 +1,14 @@
+// Add an event listener to the input field
+document
+  .getElementById("cityInput")
+  .addEventListener("keyup", function (event) {
+    // Check if the key pressed is Enter (key code 13)
+    if (event.key === "Enter") {
+      // Trigger a click event on the search button
+      document.getElementById("searchButton").click();
+    }
+  });
+
 const apiKey = "deda89a9d5943d80a12b75e1c9835446";
 const apiUrl =
   "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
