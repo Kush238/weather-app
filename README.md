@@ -50,7 +50,7 @@ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q={CITY_NAME}&ap
 <p>Replace <code>'YOUR_API_KEY_HERE'</code> with your own API key.</p>
 
 <h2>Contributions</h2>
-    <p>Contributions to this Weather App are welcome! If you have any improvements, bug fixes, or feature enhancements in mind, please feel free to open an issue or submit a pull request. Your contributions will be greatly appreciated.</p>
+    <p>Chance to contribute to this Weather App will be available in future! Stay tune.</p>
 
 <h2>License</h2>
     <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
