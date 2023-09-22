@@ -1,9 +1,14 @@
 const apiKey = "deda89a9d5943d80a12b75e1c9835446";
 const apiUrl =
-  "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Surat";
+  "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+
 //
-async function checkWeather() {
-  const response = await fetch(apiUrl + `&appid=${apiKey}`);
+
+const searchBox = document.querySelector(".search input");
+const searchBtn = document.querySelector(".search button");
+
+async function checkWeather(city) {
+  const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
   var data = await response.json();
 
   console.log(data);
@@ -23,5 +28,9 @@ async function checkWeather() {
     Math.round(data.main.temp_min) + " °C";
   document.querySelector(".weather_pressure").innerHTML = data.main.pressure;
 }
+
+searchBtn.addEventListener("click", () => {
+  checkWeather(searchBox.value);
+});
 
 checkWeather();
