@@ -94,3 +94,16 @@ body {
   font-size: 26px;
   margin-top: -6px;
 }
+
+.weather_more {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.weather_temp_max_num,
+.weather_temp_min_num,
+.weather_pressure,
+.weather_wind_deg_num {
+  font-weight: 700;
+}
