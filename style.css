@@ -101,9 +101,43 @@ body {
   margin-top: 25px;
 }
 
-.weather_temp_max_num,
-.weather_temp_min_num,
-.weather_pressure,
-.weather_wind_deg_num {
+.weather,
+.weather_more {
+  display: none;
+}
+
+.error {
+  height: 2rem;
+  width: 20rem;
+  margin-top: 25px;
+  text-align: center;
+  color: red;
+  background-color: #222;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
   font-weight: 700;
+  margin-top: 25px;
+  font-size: 20px;
+  display: none;
+  margin-bottom: 25px;
+}
+
+.city_error_2 {
+  background-color: #222;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-top: 25px;
+  font-size: 20px;
+  display: none;
 }
