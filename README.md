@@ -1,2 +1,3 @@
-# weather-app
- Weather App made using JavaScript
+# Weather App by Kush
+
+Weather App made using JavaScript
