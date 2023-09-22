@@ -1,7 +1,5 @@
 # Weather App by Kush
 
-<h1>Weather App made using JavaScript</h1>
-
 <p>
 Welcome to the Weather App by Kush! This web application provides real-time weather information for locations around the world.</p>
 
